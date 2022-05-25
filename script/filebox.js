@@ -12,8 +12,8 @@
  
 [rewrite_local]
 # ～ filebox解鎖會員權限（2022-02-18）@ddgksf2013
-^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ url script-echo-response https://raw.githubusercontent.com/boooood/quantumultx/main/script/filebox.js?token=GHSAT0AAAAAABUFKR4GRNDWP64YNZTHBR3MYUNWX7Q
-^https?:\/\/api\.revenuecat\.com\/v\d\/receipts$ url script-echo-response https://raw.githubusercontent.com/boooood/quantumultx/main/script/filebox.js?token=GHSAT0AAAAAABUFKR4GRNDWP64YNZTHBR3MYUNWX7Q
+^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ url script-echo-response https://raw.githubusercontent.com/boooood/quantumultx/main/script/filebox.js
+^https?:\/\/api\.revenuecat\.com\/v\d\/receipts$ url script-echo-response https://raw.githubusercontent.com/boooood/quantumultx/main/script/filebox.js
 [mitm] 
 hostname=api.revenuecat.com
 ***********************************/
