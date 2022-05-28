@@ -4,7 +4,7 @@ Author：Hausd0rff
 同步解锁 MONO RAW，需在APP里手动操作下
 低调使用
 [rewrite_local]
-^https?:\/\/nomo\.dafork\.com\/api\/v3\/register\/phone_signin$ url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/nomo.js
+^https?:\/\/nomo\.dafork\.com\/api\/v3\/register\/phone_signin$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/NoMoCamProCrack.js
 [mitm]
 hostname=nomo.dafork.com
 /*
