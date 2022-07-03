@@ -3,7 +3,7 @@
 薄荷健康 unlock vip by 渤涵
 
 [rewrite_local]
-^http(s):\/\/.*\.boohee\.(com|cn)\/api\/v(1|2)\/(wisdom\/contracts\/status|users\/vip_status|vip_member) url script-response-body buehen0426/Scripts/boohee/boohee.js
+^http(s):\/\/.*\.boohee\.(com|cn)\/api\/v(1|2)\/(wisdom\/contracts\/status|users\/vip_status|vip_member) url script-response-body https://raw.githubusercontent.com/boooood/quantumultx/main/script/boohee.js
 
 [MITM]
 hostname = *.boohee.com
